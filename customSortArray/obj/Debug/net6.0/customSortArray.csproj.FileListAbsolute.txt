@@ -1,0 +1,15 @@
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\bin\Debug\net6.0\customSortArray.exe
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\bin\Debug\net6.0\customSortArray.deps.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\bin\Debug\net6.0\customSortArray.runtimeconfig.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\bin\Debug\net6.0\customSortArray.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\bin\Debug\net6.0\customSortArray.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\refint\customSortArray.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\customSortArray.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\customSortArray\obj\Debug\net6.0\ref\customSortArray.dll

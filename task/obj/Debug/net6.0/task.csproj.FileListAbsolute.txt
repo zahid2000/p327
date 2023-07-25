@@ -1,0 +1,15 @@
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\bin\Debug\net6.0\task.exe
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\bin\Debug\net6.0\task.deps.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\bin\Debug\net6.0\task.runtimeconfig.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\bin\Debug\net6.0\task.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\bin\Debug\net6.0\task.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\refint\task.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\task.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\task\obj\Debug\net6.0\ref\task.dll

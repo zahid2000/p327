@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\bin\Debug\net6.0\ECommerce.DataAccessLayer.deps.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\bin\Debug\net6.0\ECommerce.DataAccessLayer.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\bin\Debug\net6.0\ECommerce.DataAccessLayer.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\refint\ECommerce.DataAccessLayer.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ECommerce.DataAccessLayer.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.DataAccessLayer\obj\Debug\net6.0\ref\ECommerce.DataAccessLayer.dll
