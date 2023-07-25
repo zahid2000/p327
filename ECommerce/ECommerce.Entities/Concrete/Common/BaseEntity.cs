@@ -1,6 +1,8 @@
-﻿namespace ECommerce.Entities.Concrete.Common;
+﻿using Core.Utilities.Entities.Abstract;
 
-public class BaseEntity
+namespace ECommerce.Entities.Concrete.Common;
+
+public class BaseEntity: IEntity
 {
     public int Id { get; set; }
 }

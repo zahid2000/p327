@@ -3,7 +3,7 @@
 public class BaseAuditableEntity:BaseEntity
 {
     public string CreateBy { get; set; }
-    public string CreateDate { get; set; }
-    public string UpdateBy { get; set; }
-    public string UpdateDate { get; set; }
+    public DateTime CreateDate { get; set; }
+    public string LastModifiedBy { get; set; }
+    public DateTime LastModifiedDate { get; set; }
 }

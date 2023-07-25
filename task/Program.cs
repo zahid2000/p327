@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.Design;
 using System.Diagnostics.Metrics;
+using System.Reflection;
 using System.Reflection.Metadata;
 
 namespace task
@@ -43,38 +44,41 @@ namespace task
             //test<Person> test= new test<Person>();
             //List<int> ints = new List<int>() { };
 
-            string sentence = "Salam,men,Huseynem";
-         
-           
-            static string[] customSplit(char separator,string sentence)
-            {
-                string word = "";
-                string[] words = { };
-                for (int i = 0; i < sentence.Length; i++)
-                {
+            //string sentence = "Salam,men,Huseynem";
 
-                    if (sentence[i] != separator)
-                    {
-                        word += sentence[i];
-                    }
-                    if (i+1==sentence.Length || sentence[i]==separator)
-                    {
-                        Array.Resize(ref words, words.Length + 1);
-                        words[words.Length - 1] = word;
-                        word = "";
-                    }
-                }
-                return words;
-            }
-            string[] arr = customSplit(',', sentence);
-            foreach (var item in arr)
-            {
-                Console.WriteLine(item);
-            }
 
-           
-            
+            //static string[] customSplit(char separator,string sentence)
+            //{
+            //    string word = "";
+            //    string[] words = { };
+            //    for (int i = 0; i < sentence.Length; i++)
+            //    {
 
+            //        if (sentence[i] != separator)
+            //        {
+            //            word += sentence[i];
+            //        }
+            //        if (i+1==sentence.Length || sentence[i]==separator)
+            //        {
+            //            Array.Resize(ref words, words.Length + 1);
+            //            words[words.Length - 1] = word;
+            //            word = "";
+            //        }
+            //    }
+            //    return words;
+            //}
+            //string[] arr = customSplit(',', sentence);
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+          //Custom custom = new Custom();
+          //  custom.Age=25;
+          //  Console.WriteLine(custom.Age);
+          //Assembly assembly = Assembly.GetExecutingAssembly();
         }
 
         public class test<T> 
