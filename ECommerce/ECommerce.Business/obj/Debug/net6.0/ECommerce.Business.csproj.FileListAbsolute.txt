@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.Business.deps.json
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.Business.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.Business.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\refint\ECommerce.Business.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ref\ECommerce.Business.dll

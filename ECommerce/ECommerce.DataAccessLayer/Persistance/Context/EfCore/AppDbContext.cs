@@ -1,4 +1,5 @@
-﻿using ECommerce.Entities.Concrete;
+﻿using ECommerce.DataAccessLayer.Persistance.Interceptors;
+using ECommerce.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -6,13 +7,22 @@ namespace ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 
 public class AppDbContext:DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> opt):base(opt){}
+    private readonly BaseAuditableEntityInterceptor _baseAuditableEntityInterceptor;
+    public AppDbContext(DbContextOptions<AppDbContext> opt, BaseAuditableEntityInterceptor baseAuditableEntityInterceptor) : base(opt)
+    {
+        _baseAuditableEntityInterceptor = baseAuditableEntityInterceptor;
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
+    }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.AddInterceptors(_baseAuditableEntityInterceptor);
+        base.OnConfiguring(optionsBuilder);
     }
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }

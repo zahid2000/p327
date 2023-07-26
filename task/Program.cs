@@ -9,6 +9,7 @@ namespace task
     {
         static void Main(string[] args)
         {
+            #region Old
             //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             //int num = int.Parse(Console.ReadLine());
@@ -75,10 +76,13 @@ namespace task
 
 
 
-          //Custom custom = new Custom();
-          //  custom.Age=25;
-          //  Console.WriteLine(custom.Age);
-          //Assembly assembly = Assembly.GetExecutingAssembly();
+            //Custom custom = new Custom();
+            //  custom.Age=25;
+            //  Console.WriteLine(custom.Age);
+            //Assembly assembly = Assembly.GetExecutingAssembly();
+            #endregion
+            IExport export=new ExportToWord();
+            export.Export("d/test");
         }
 
         public class test<T> 

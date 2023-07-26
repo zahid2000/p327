@@ -9,5 +9,7 @@ public class Category:BaseEntity
         Products = new List<Product>();
     }
     public string Name { get; set; }
+    public bool IsDeleted { get; set; }
+
     public List<Product> Products { get; set; }
 }
