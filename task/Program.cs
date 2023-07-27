@@ -81,8 +81,22 @@ namespace task
             //  Console.WriteLine(custom.Age);
             //Assembly assembly = Assembly.GetExecutingAssembly();
             #endregion
-            IExport export=new ExportToWord();
-            export.Export("d/test");
+            //IExport export=new ExportToWord();
+            //export.Export("d/test");
+            //MyStatic.Age = 15;
+            //Console.WriteLine(MyStatic.Age);
+            //MyStatic myStatic = new MyStatic();
+            //MyStatic myStatic2 = new MyStatic();
+            //MyStatic myStatic3 = new MyStatic();
+            string word = "P327";
+            Console.WriteLine(word.CustomReverse());
+
+            
+
+            double num = 5.2;
+
+            Console.WriteLine(num.CustomIntPow(3));
+            word.CustomIntPow(5);
         }
 
         public class test<T> 

@@ -29,11 +29,14 @@ public class BaseAuditableEntityInterceptor:SaveChangesInterceptor
         {
             if (entry.State==EntityState.Added)
             {
-                entry.Entity.CreateBy = _httpContextAccessor.HttpContext.User.Identity.Name;
+                //entry.Entity.CreateBy = _httpContextAccessor.HttpContext.User.Identity.Name;
+                entry.Entity.CreateBy ="Shahin";
+
                 entry.Entity.CreateDate = DateTime.Now;
             }else if (entry.State == EntityState.Modified)
             {
-                entry.Entity.LastModifiedBy= _httpContextAccessor.HttpContext.User.Identity.Name;
+                //entry.Entity.LastModifiedBy= _httpContextAccessor.HttpContext.User.Identity.Name;
+                entry.Entity.LastModifiedBy= "Fikret";
                 entry.Entity.LastModifiedDate = DateTime.Now;
             }
         }

@@ -10,3 +10,10 @@ C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\refint\ECommerce.Business.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.pdb
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ref\ECommerce.Business.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\Core.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.DataAccessLayer.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.Entities.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.DataAccessLayer.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\ECommerce.Entities.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\bin\Debug\net6.0\Core.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\ECommerce.Business\obj\Debug\net6.0\ECommerce.Business.csproj.CopyComplete

@@ -43,7 +43,7 @@ namespace ECommerce.DataAccessLayer.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("ECommerce.Entities.Concrete.Image", b =>
@@ -60,7 +60,7 @@ namespace ECommerce.DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Images", (string)null);
+                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("ECommerce.Entities.Concrete.Manufacturer", b =>
@@ -78,9 +78,6 @@ namespace ECommerce.DataAccessLayer.Migrations
                     b.Property<int>("ImageId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -89,7 +86,7 @@ namespace ECommerce.DataAccessLayer.Migrations
 
                     b.HasIndex("ImageId");
 
-                    b.ToTable("Manufacturers", (string)null);
+                    b.ToTable("Manufacturers");
                 });
 
             modelBuilder.Entity("ECommerce.Entities.Concrete.Product", b =>
@@ -107,7 +104,6 @@ namespace ECommerce.DataAccessLayer.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("CreateBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreateDate")
@@ -121,7 +117,6 @@ namespace ECommerce.DataAccessLayer.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastModifiedDate")
@@ -144,7 +139,7 @@ namespace ECommerce.DataAccessLayer.Migrations
 
                     b.HasIndex("ManufacturerId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
 
                     b.HasCheckConstraint("Count", "Count between 0 and 100");
                 });
@@ -158,7 +153,6 @@ namespace ECommerce.DataAccessLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("CreateBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreateDate")
@@ -171,7 +165,6 @@ namespace ECommerce.DataAccessLayer.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastModifiedDate")
@@ -186,7 +179,7 @@ namespace ECommerce.DataAccessLayer.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImages", (string)null);
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("ECommerce.Entities.Concrete.Manufacturer", b =>

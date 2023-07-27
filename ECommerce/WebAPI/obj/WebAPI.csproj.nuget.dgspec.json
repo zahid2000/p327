@@ -64,6 +64,73 @@
         }
       }
     },
+    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
+        "projectName": "ECommerce.Business",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -254,6 +321,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj"
+              },
               "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
                 "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
               }
@@ -270,11 +340,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

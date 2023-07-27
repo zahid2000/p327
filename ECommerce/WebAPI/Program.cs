@@ -1,3 +1,4 @@
+using ECommerce.Business;
 using ECommerce.DataAccessLayer;
 namespace WebAPI;
 
@@ -9,8 +10,11 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddHttpContextAccessor();
-        builder.Services.AddControllers();
+        builder.Services.AddControllers().AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
         builder.Services.AddDataAccessServices(builder.Configuration);
+        builder.Services.AddBusinessServices();
       
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

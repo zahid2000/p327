@@ -1,4 +1,6 @@
-﻿using ECommerce.DataAccessLayer.Persistance.Context.EfCore;
+﻿using ECommerce.DataAccessLayer.Abstract;
+using ECommerce.DataAccessLayer.Concrete;
+using ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 using ECommerce.DataAccessLayer.Persistance.Interceptors;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +15,7 @@ public static class DataAccessConfiguration
         services.AddDbContext<AppDbContext>(opt =>
         opt.UseSqlServer(configuration.GetConnectionString("Default")));
         services.AddScoped<BaseAuditableEntityInterceptor>();
+        services.AddScoped<IProductRepository, ProductRepository>();
         return services;    
     }
 }

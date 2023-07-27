@@ -72,3 +72,9 @@ C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Core
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\ECommerce.Entities.pdb
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Humanizer.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\ECommerce.Business.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\ECommerce.Business.pdb
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

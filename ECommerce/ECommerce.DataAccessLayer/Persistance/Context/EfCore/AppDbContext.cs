@@ -13,6 +13,7 @@ public class AppDbContext:DbContext
         _baseAuditableEntityInterceptor = baseAuditableEntityInterceptor;
     }
 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
@@ -22,6 +23,7 @@ public class AppDbContext:DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.AddInterceptors(_baseAuditableEntityInterceptor);
+        optionsBuilder.UseSqlServer(@"Server=.;Database=P327ECommerce;Trusted_Connection=true;");
         base.OnConfiguring(optionsBuilder);
     }
     public DbSet<Product> Products { get; set; }
