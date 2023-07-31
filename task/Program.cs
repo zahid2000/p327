@@ -7,6 +7,9 @@ namespace task
 {
     internal class Program
     {
+        //delegate void MyDelegate(string a, int b);
+        delegate void Log(string Path);
+        delegate bool Condition(int num);
         static void Main(string[] args)
         {
             #region Old
@@ -80,7 +83,6 @@ namespace task
             //  custom.Age=25;
             //  Console.WriteLine(custom.Age);
             //Assembly assembly = Assembly.GetExecutingAssembly();
-            #endregion
             //IExport export=new ExportToWord();
             //export.Export("d/test");
             //MyStatic.Age = 15;
@@ -88,17 +90,76 @@ namespace task
             //MyStatic myStatic = new MyStatic();
             //MyStatic myStatic2 = new MyStatic();
             //MyStatic myStatic3 = new MyStatic();
-            string word = "P327";
-            Console.WriteLine(word.CustomReverse());
+            //string word = "P327";
+            //Console.WriteLine(word.CustomReverse());
+            //double num = 5.2;
+            //Console.WriteLine(num.CustomIntPow(3));
+            //word.CustomIntPow(5);
+            #endregion
 
-            
+            //MyDelegate myDelegate = new(Method);
 
-            double num = 5.2;
+            //myDelegate.Invoke("1", 2);
+            //LogToDB("d/a/b");
+            //LogToConsole("hjkhbj");
+            //Log MyLogger = new Log(LogToDB);
+            //MyLogger += LogToConsole;
+            //MyLogger += LogToFile;
+            //MyLogger("a/b/c");
 
-            Console.WriteLine(num.CustomIntPow(3));
-            word.CustomIntPow(5);
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, -1, -2, -3, -4, -5 };
+            Log log = LogToDB;
+            log += delegate (string path)
+            {
+                Console.WriteLine(path);
+            };
+            log += (path) =>
+            {
+                Console.WriteLine("arrow delegate " + path);
+            };
+            log("a/b/c");
+            //ConsoleArr(arr,IsEven);
+            //ConsoleArr(arr,IsOdd);
+
+
         }
 
+        private static void ConsoleArr(int[] arr,Condition condition)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (condition(arr[i]))
+                {
+                    Console.WriteLine(arr[i]);
+                }
+            }
+        }
+        public static bool IsEven(int num)
+        {
+            return num % 2==0;
+        }
+        public static bool IsOdd(int num)
+        {
+            return num % 2 != 0;
+        }
+        // static void Method(string d, int i)
+        //{
+        //    Console.WriteLine(d + i.ToString());
+        //}
+
+
+        public static void LogToDB(string Path)
+        {
+            Console.WriteLine("Logged to Db to" + Path);
+        }
+        //public static void LogToConsole(string test)
+        //{
+        //    Console.WriteLine("Logged to Console");
+        //}
+        //public static void LogToFile(string Path)
+        //{
+        //    Console.WriteLine("Logged to File to "+Path );
+        //}
         public class test<T> 
             where T:class,new()
         {
