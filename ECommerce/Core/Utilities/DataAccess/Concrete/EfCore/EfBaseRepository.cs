@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace Core.Utilities.DataAccess.Concrete.EfCore;
 
-public abstract class EfBaseRepository<TEntity, TContext> :IRepository<TEntity>,IAsyncRepository<TEntity>
+public  class EfBaseRepository<TEntity, TContext> :IRepository<TEntity>,IAsyncRepository<TEntity>
      where TEntity : class, IEntity, new()
     where TContext:DbContext
 

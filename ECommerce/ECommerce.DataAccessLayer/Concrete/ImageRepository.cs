@@ -4,7 +4,7 @@ using ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 
 namespace ECommerce.DataAccessLayer.Concrete;
 
-public class ImageRepository : EfBaseRepository<, AppDbContext>, IImageRepository
+public class ImageRepository : EfBaseRepository<Image, AppDbContext>, IImageRepository
 {
     public ImageRepository(AppDbContext context) : base(context)
     {

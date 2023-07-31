@@ -78,3 +78,5 @@ C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Micr
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

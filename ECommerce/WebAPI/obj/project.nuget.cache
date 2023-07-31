@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9zwAUicK9zl3z1tFVtBLHnKP0ol6jIe3QBN0QMc51QHzF5HI3RMH9OIHIo7KUuooL67eQzM6+Hh3cEDaxtYGcA==",
+  "dgSpecHash": "OPXWng/dCz3MuOwVESY9bLLeLEgYNLEmGAUhrvd3Ez7S85pU6nxfsk1qkT7x0cSh17D/nByTKhmF939b6ZCqvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

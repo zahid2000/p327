@@ -30,18 +30,7 @@ namespace WebAPI.Controllers
         [HttpPost("Add")]
         public async Task<IActionResult> Add(ProductCreateDto productDto)
         {
-            Product product = new Product
-            {
-                Name = productDto.Name,
-                Price = productDto.Price,
-                CategoryId = productDto.CategoryId,
-                ManufacturerId = productDto.ManufacturerId,
-                Description = productDto.Description,
-                IsDeleted = false,
-                Count = productDto.Count
-
-            };
-            await _productService.Add(product);
+            await _productService.Add(productDto);
             return Ok();
         }
     }

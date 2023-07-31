@@ -7,7 +7,14 @@ namespace ECommerce.DataAccessLayer.Concrete;
 
 public class ProductRepository : EfBaseRepository<Product, AppDbContext>, IProductRepository
 {
-    public ProductRepository(AppDbContext context) : base(context)
+    private readonly AppDbContext _context;
+        public ProductRepository(AppDbContext context) : base(context)
     {
+        _context = context;
+    }
+
+    public Product CustomGetById(int id)
+    {
+       return _context.Products.Find(id);
     }
 }
