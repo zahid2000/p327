@@ -80,3 +80,6 @@ C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newt
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\lenovo\Desktop\Code_Academy\p327\ECommerce\WebAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll

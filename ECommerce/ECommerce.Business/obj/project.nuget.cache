@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DX4ZX1APsmtb5JzSafD24DmiwgW33AC4peIInksGEuZEpa0B3DseuzTFdLjwZ7gHn5dZZHSvzm7Pho0RJD+dVA==",
+  "dgSpecHash": "VpDYholI9Y1EEMbELIcRWJbLWITxan5scUb1gBkEcdueVbLBiSG9d0IX4LrNoSjS+mQE5RGyss5Q3QufDwmv0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

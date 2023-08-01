@@ -12,9 +12,9 @@ public static class DataAccessConfiguration
     public static IServiceCollection AddDataAccessServices(this IServiceCollection services,IConfiguration configuration)
     {
         services.AddHttpContextAccessor();
+        services.AddScoped<BaseAuditableEntityInterceptor>();
         services.AddDbContext<AppDbContext>(opt =>
         opt.UseSqlServer(configuration.GetConnectionString("Default")));
-        services.AddScoped<BaseAuditableEntityInterceptor>();
         services.AddScoped<IProductRepository, ProductRepository>();
         return services;    
     }

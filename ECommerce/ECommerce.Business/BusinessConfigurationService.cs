@@ -1,5 +1,6 @@
 ﻿using ECommerce.Business.Abstract;
 using ECommerce.Business.Concrete;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -11,6 +12,7 @@ public static class BusinessConfigurationService
     {
         service.AddScoped<IProductService, ProductService>();
         service.AddAutoMapper(Assembly.GetExecutingAssembly());
+        service.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         return service;
     }
 }

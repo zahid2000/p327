@@ -107,21 +107,26 @@ namespace task
             //MyLogger += LogToFile;
             //MyLogger("a/b/c");
 
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, -1, -2, -3, -4, -5 };
-            Log log = LogToDB;
-            log += delegate (string path)
-            {
-                Console.WriteLine(path);
-            };
-            log += (path) =>
-            {
-                Console.WriteLine("arrow delegate " + path);
-            };
-            log("a/b/c");
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, -1, -2, -3, -4, -5 };
+            //Log log = LogToDB;
+            //log += delegate (string path)
+            //{
+            //    Console.WriteLine(path);
+            //};
+            //log += (path) =>
+            //{
+            //    Console.WriteLine("arrow delegate " + path);
+            //};
+            //log("a/b/c");
             //ConsoleArr(arr,IsEven);
             //ConsoleArr(arr,IsOdd);
+            Console.WriteLine(fact(5));
 
-
+        }
+        private static int fact(int num)
+        {
+            if (num <= 1) return 1;
+            return num * fact(num - 1);
         }
 
         private static void ConsoleArr(int[] arr,Condition condition)

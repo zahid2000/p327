@@ -1,5 +1,7 @@
 using ECommerce.Business;
 using ECommerce.DataAccessLayer;
+using FluentValidation.AspNetCore;
+
 namespace WebAPI;
 
 public class Program
@@ -15,6 +17,7 @@ public class Program
 );
         builder.Services.AddDataAccessServices(builder.Configuration);
         builder.Services.AddBusinessServices();
+        builder.Services.AddFluentValidationAutoValidation(x => x.DisableDataAnnotationsValidation = true).AddFluentValidationClientsideAdapters();
       
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

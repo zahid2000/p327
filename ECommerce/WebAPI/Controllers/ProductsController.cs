@@ -1,4 +1,5 @@
-﻿using ECommerce.Business.Abstract;
+﻿using Core.Utilities.Results.Concrete;
+using ECommerce.Business.Abstract;
 using ECommerce.Entities.Concrete;
 using ECommerce.Entities.Dtos.Products;
 using Microsoft.AspNetCore.Http;
@@ -21,7 +22,7 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result=await _productService.GetAll();
-            if (result.Count>0)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -30,8 +31,24 @@ namespace WebAPI.Controllers
         [HttpPost("Add")]
         public async Task<IActionResult> Add(ProductCreateDto productDto)
         {
-            await _productService.Add(productDto);
-            return Ok();
+          var result=  await _productService.Add(productDto);
+            if (result.Success)
+            {
+            return Ok(result);
+
+            }
+            return BadRequest(result);
+        }
+        [HttpPut("Update")]
+        public async Task<IActionResult> Update(ProductUpdateDto productDto)
+        {
+         var result=  await _productService.Update(productDto);
+            if (result.Success)
+            {
+                return Ok(result);
+
+            }
+            return BadRequest(result);
         }
     }
 }

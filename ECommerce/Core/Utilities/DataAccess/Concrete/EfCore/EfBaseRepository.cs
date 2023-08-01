@@ -73,10 +73,13 @@ public EfBaseRepository(TContext context)
     }
     private static IQueryable<TEntity> AddIncludesToQuery(string[] includes, IQueryable<TEntity> query)
     {
-        foreach (string include in includes)
+        if (includes is not null)
         {
-            query = query.Include(include);
-        }
+            foreach (string include in includes)
+            {
+                query = query.Include(include);
+            }
+        }        
         return query;
     }
 
