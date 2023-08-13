@@ -1,4 +1,4 @@
-﻿using Core.Utilities.DataAccess.Concrete.EfCore;
+﻿using Core.DataAccess.Concrete.EfCore;
 using ECommerce.DataAccessLayer.Abstract;
 using ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 

@@ -2,6 +2,7 @@
 using ECommerce.Business.Abstract;
 using ECommerce.Entities.Concrete;
 using ECommerce.Entities.Dtos.Products;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -46,7 +48,6 @@ namespace WebAPI.Controllers
             if (result.Success)
             {
                 return Ok(result);
-
             }
             return BadRequest(result);
         }

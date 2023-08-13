@@ -1,11 +1,12 @@
-﻿using ECommerce.DataAccessLayer.Persistance.Interceptors;
-using ECommerce.Entities.Concrete;
-using Microsoft.EntityFrameworkCore;
+﻿using Core.Entities.Concrete.Auth;
+using ECommerce.DataAccessLayer.Persistance.Interceptors;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System.Reflection;
 
 namespace ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 
-public class AppDbContext:DbContext
+public class AppDbContext:IdentityDbContext<AppUser>
 {
     private readonly BaseAuditableEntityInterceptor _baseAuditableEntityInterceptor;
     public AppDbContext(DbContextOptions<AppDbContext> opt, BaseAuditableEntityInterceptor baseAuditableEntityInterceptor) : base(opt)
