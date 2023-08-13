@@ -8,5 +8,6 @@ namespace ECommerce.Business.Abstract
 {
     internal interface IRoleService
     {
+        Task CreateRole(Role)
     }
 }
