@@ -1,3 +1,5 @@
+using Core.Utilities.Extensions;
+using Core.Utilities.Middlewares;
 using Core.Utilities.Security.Encrypting;
 using Core.Utilities.Security.JWT;
 using ECommerce.Business;
@@ -5,6 +7,8 @@ using ECommerce.DataAccessLayer;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using System.Net;
 
 namespace WebAPI;
 
@@ -72,6 +76,9 @@ public class Program
         }
     });
         });
+
+
+        //builder.Services.AddTransient<GlobalExceptionHandlerMiddleware2>();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -81,6 +88,31 @@ public class Program
             app.UseSwaggerUI();
         }
 
+        //app.Use(async(context, next) =>
+        //{
+        //    try
+        //    {
+        //        await next(context);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        context.Response.StatusCode = 500;
+        //        context.Response.ContentType = "application/json";
+
+        //        await context.Response.WriteAsync(
+        //            JsonConvert.SerializeObject(
+
+        //                new
+        //                {
+        //                    statusCode = (int)HttpStatusCode.InternalServerError,
+        //                    message=ex.Message
+        //                }
+        //            ));
+        //    }
+        //});
+        //app.UseMiddleware<GlobalExceptionHandlerMidddleware>();
+        //app.UseMiddleware<GlobalExceptionHandlerMiddleware2>();
+        app.UseGlobalExceptionHandler();
         app.UseAuthentication();
         app.UseAuthorization();
         app.MapControllers();

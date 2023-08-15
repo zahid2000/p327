@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {}
+    "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\Core.csproj": {
+    "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\obj\\",
+        "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\zahid.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.20, )"
@@ -64,6 +67,10 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -86,24 +93,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
+    "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
         "projectName": "ECommerce.Business",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\obj\\",
+        "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj",
+        "packagesPath": "C:\\Users\\zahid.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -112,18 +119,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
+              "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
               },
-              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj"
+              "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
+                "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj"
               }
             }
           }
@@ -171,24 +177,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
+    "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj",
         "projectName": "ECommerce.DataAccessLayer",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\zahid.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,15 +203,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj"
+              "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
+                "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj"
               }
             }
           }
@@ -279,24 +284,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
+    "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj",
         "projectName": "ECommerce.Entities",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Entities\\obj\\",
+        "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\ECommerce.Entities.csproj",
+        "packagesPath": "C:\\Users\\zahid.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -305,15 +310,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\Core\\Core.csproj"
+              "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\Core\\Core.csproj"
               }
             }
           }
@@ -343,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

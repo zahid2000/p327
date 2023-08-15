@@ -1519,11 +1519,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Identity.Stores": "6.0.20",
           "Microsoft.IdentityModel.Tokens": "6.8.0",
+          "Newtonsoft.Json": "13.0.3",
           "System.IdentityModel.Tokens.Jwt": "6.8.0"
         },
         "compile": {
@@ -3601,23 +3603,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\zahid.m\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\zahid.m\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zahid.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3626,19 +3628,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj"
+            "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj": {
+              "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.Business\\ECommerce.Business.csproj"
             },
-            "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\Desktop\\Code_Academy\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
+            "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\zahid.m\\Desktop\\p327\\ECommerce\\ECommerce.DataAccessLayer\\ECommerce.DataAccessLayer.csproj"
             }
           }
         }
@@ -3699,7 +3700,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

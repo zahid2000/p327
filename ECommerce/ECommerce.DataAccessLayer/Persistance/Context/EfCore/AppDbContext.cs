@@ -9,9 +9,11 @@ namespace ECommerce.DataAccessLayer.Persistance.Context.EfCore;
 public class AppDbContext:IdentityDbContext<AppUser>
 {
     private readonly BaseAuditableEntityInterceptor _baseAuditableEntityInterceptor;
-    public AppDbContext(DbContextOptions<AppDbContext> opt, BaseAuditableEntityInterceptor baseAuditableEntityInterceptor) : base(opt)
+    private readonly CartItemInterceptor _cartItemInterceptor;
+    public AppDbContext(DbContextOptions<AppDbContext> opt, BaseAuditableEntityInterceptor baseAuditableEntityInterceptor, CartItemInterceptor cartItemInterceptor) : base(opt)
     {
         _baseAuditableEntityInterceptor = baseAuditableEntityInterceptor;
+        _cartItemInterceptor = cartItemInterceptor;
     }
 
 
@@ -23,7 +25,7 @@ public class AppDbContext:IdentityDbContext<AppUser>
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.AddInterceptors(_baseAuditableEntityInterceptor);
+        optionsBuilder.AddInterceptors(_baseAuditableEntityInterceptor,_cartItemInterceptor);
         optionsBuilder.UseSqlServer(@"Server=.;Database=P327ECommerce;Trusted_Connection=true;");
         base.OnConfiguring(optionsBuilder);
     }
@@ -31,6 +33,7 @@ public class AppDbContext:IdentityDbContext<AppUser>
     public DbSet<Category> Categories { get; set; }
     public DbSet<Manufacturer> Manufacturers { get; set; }
     public DbSet<Image> Images { get; set; }
-    public DbSet<ProductImage> ProductImages { get; set; }    
+    public DbSet<ProductImage> ProductImages { get; set; }
+    public DbSet<CartItem> CartItems { get; set; }
 
 }

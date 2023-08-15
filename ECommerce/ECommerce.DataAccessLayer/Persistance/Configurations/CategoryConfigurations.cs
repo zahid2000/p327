@@ -1,10 +1,10 @@
-﻿namespace ECommerce.DataAccessLayer.Configurations;
+﻿namespace ECommerce.DataAccessLayer.Persistance.Configurations;
 
 public class CategoryConfigurations : IEntityTypeConfiguration<Category>
 {
     public void Configure(EntityTypeBuilder<Category> builder)
     {
-       builder.Property(p=>p.Name).HasMaxLength(255).IsRequired();
+        builder.Property(p => p.Name).HasMaxLength(255).IsRequired();
         builder.HasIndex(p => p.Name).IsUnique();
 
         builder.HasMany(c => c.Products)

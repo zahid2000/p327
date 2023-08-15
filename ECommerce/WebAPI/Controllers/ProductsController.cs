@@ -10,7 +10,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles ="Admin")]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -21,9 +21,10 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("GetAll")]
-        [Authorize(Roles = "Admin,User")]
+        //[Authorize(Roles = "Admin,User")]
         public async Task<IActionResult> GetAll()
         {
+
             var result=await _productService.GetAll();
             if (result.Success)
             {

@@ -26,7 +26,7 @@ public class AuthService : IAuthService
     {
         IList<Claim> userClaims = await _userManager.GetClaimsAsync(appUser);
         AccessToken accessToken = _tokenHelper.CreateToken(userClaims.ToList());
-        return new SuccessDataResult<AccessToken>(accessToken);
+        return new SuccessDataResult<AccessToken>(accessToken,"Login successfull");
     }
 
     public async Task<IDataResult<AppUser>> LoginAsync(LoginDto loginDto)

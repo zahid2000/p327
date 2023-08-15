@@ -14,6 +14,7 @@ public static class BusinessConfigurationService
         service.AddAutoMapper(Assembly.GetExecutingAssembly());
         service.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         service.AddScoped<IProductService, ProductService>();
+        service.AddScoped<ICartItemService, CartItemService>();
         service.AddScoped<IAuthService, AuthService>();
         service.AddScoped<ITokenHelper, JWTHelper>();
 

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Core.Utilities.Exceptions;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using ECommerce.Business.Abstract;
@@ -54,6 +55,8 @@ public class ProductService : IProductService
     public async Task<IDataResult<List<ProductGetDto>>> GetAll()
     {
         var products = await _productRepository.GetAllAsync(includes: new string[] { "Category", "Manufacturer" });
+        if (products.Count == 0)
+            throw new NotFoundException("Product list is empty");
         return new SuccessDataResult<List<ProductGetDto>>(_mapper.Map<List<ProductGetDto>>(products),"Products Listed");
     }
 

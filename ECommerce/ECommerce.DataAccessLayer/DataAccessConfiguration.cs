@@ -15,6 +15,7 @@ public static class DataAccessConfiguration
     {
         services.AddHttpContextAccessor();
         services.AddScoped<BaseAuditableEntityInterceptor>();
+        services.AddScoped<CartItemInterceptor>();
         services.AddDbContext<AppDbContext>(opt =>
         opt.UseSqlServer(configuration.GetConnectionString("Default")));
         services.AddIdentity<AppUser, IdentityRole>(opt =>
@@ -24,6 +25,7 @@ public static class DataAccessConfiguration
         }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
         services.AddScoped<IProductRepository, ProductRepository>();
+        services.AddScoped<ICartItemRepository, CartItemRepository>();
         return services;    
     }
 }
